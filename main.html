@@ -7,35 +7,77 @@
             .header{
                 display: flex; 
                 border-style: solid; 
-                border-width: 5px; 
-                border-color: red;
+                border-width: 2px; 
+                border-color: brown;
+                background-color: beige;
+                justify-content: center;
             }
-            .footer{
+
+            .navigation{
                 display: flex; 
+            }
+
+            #logo{
+                position: absolute;
+                top: 20px; 
+                left: 20px;
+                bottom: 20px; 
+                border-radius: 50%;
+                width: 150px; 
+                height: 150px; 
+                
+            }
+
+            li{
+                display: inline-block;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+
+            .footer{
+                display: flex;  
+                border-color: brown; 
                 border-style: solid; 
-                border-width: 5px; 
-                border-color: red;
+                border-width: 2px; 
+                background-color: beige;
             }
             .body{
                 display: flex; 
-                border-style: solid; 
-                border-width: 5px; 
-                border-color: red; 
+                border-color: beige; 
+            }
+
+            #photo{
+                display: flex; 
+                align-content: center;
+                border-radius: 50%; 
+        
             }
         </style>
     </head>
 
     <body> 
-        <div class="header"> 
-            <div> 
-                <h1>Logo</h1>
-                <p></p>
+        <div class="header">
+            <div>  
+                <img id= "logo" src="logo.jpg" alt="logo"> 
+                <h1>My Portfolio</h1>
+                <div class="navigation"> 
+                    <ul>
+                        <li>
+                            <p>Home</p>
+                        </li>
+                        <li>
+                            <p>About Me</p>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+
         </div>
 
         <div class="body"> 
-            <div> 
-                <p>Featured Photo</p>
+            <div id="myphoto">
+                <img id="photo" src="logo.jpg" alt="My Pic">   
             </div>
             <div>
                 <p>Previous Projects</p>
@@ -47,9 +89,10 @@
 
         <div class="footer"> 
             <div>
-                <p>Footer Contents</p>
-                <p>Logo, Address/Contact Information, and Personal Website</p>
-                <p>Copyright Information</p>
+              <p>Address: Cedarwood Residences, Langkaan I, Dasmarinas City, Cavite</p>
+              <p>Contact Number: 09123456789</p>
+              <p>Copyright Information @ 2024</p>
+              <a href="#header">Back to the Top</a>
             </div>
         </div>
     </body>
