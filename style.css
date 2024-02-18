@@ -1,3 +1,6 @@
+/*stylesheet*/
+
+/*header*/
 .header{ 
     border: 3px;
     border-style: solid; 
@@ -6,6 +9,7 @@
     text-align: center;
 }
 
+/*text*/
 h1{
     font-family: "Lucida Sans";
     font-size: 50px;
@@ -33,6 +37,7 @@ p{
     font-size: 15px; 
 }
 
+/*home and about me*/
 #nav{
     display: inline-flex;
     margin-left: 200px;
@@ -42,6 +47,7 @@ p{
     font-weight: bold;
 }
 
+/*logo (header)*/
 #mylogo{
     border-radius: 50%;
     width: 150px; 
@@ -51,6 +57,7 @@ p{
     left: 50px;     
 }
 
+/*logo (footer)*/
 #mylogo-f{
     border-radius: 50%; 
     width: 90px; 
@@ -59,10 +66,12 @@ p{
     left: 50px; 
 }
 
+/*body*/
 body{
     background-color: beige;   
 }
 
+/*photo*/
 #myPhoto{
     width: 300px;
     height: 340px; 
@@ -74,6 +83,7 @@ body{
     padding-bottom: 20px; 
 }
 
+/*footer*/
 .footer{
     background-color: #e7d4c3;
     border: 3px; 
@@ -81,6 +91,7 @@ body{
     border-style: solid; 
 }
 
+/*information*/
 #info{
     display: inline-block;
     margin-left: 200px;
@@ -89,6 +100,7 @@ body{
     font-family: "Lucida Sans";
 }
 
+/*project images*/
 #first, #second, #third{
     width: 300px;  
     height: 200px; 
@@ -96,6 +108,7 @@ body{
     padding-right: 30px; 
 }
 
+/*table*/
 .row{
     display: flex; 
 }
