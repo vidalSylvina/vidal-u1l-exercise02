@@ -3,135 +3,7 @@
 <html>
     <head>
         <title>My Portfolio</title>
-        <style>
-            .header{ 
-                border: 3px;
-                border-style: solid; 
-                background-color: #e7d4c3; 
-                border-color: brown;
-                text-align: center;
-            }
-
-        h1{
-            font-family: "Lucida Sans";
-            font-size: 50px;
-        }
-
-        h2{
-            font-family: "Lucida Sans";
-            font-weight: bold;
-            text-align: center;
-        }
-        
-        h3{
-            font-family: "Lucida Sans"; 
-            font-weight: bold; 
-            text-align: center; 
-        }
-
-        li{
-            font-family: "Lucida Sans"; 
-            font-size: 16px;
-        }
-
-        p{
-            font-family: "Lucida Sans"; 
-            font-size: 15px; 
-        }
-
-        #nav{
-            display: inline-flex;
-            margin-left: 200px;
-            margin-right: 200px; 
-            font-size: 20px;
-            font-family: Arial; 
-            font-weight: bold;
-        }
-
-        #mylogo{
-            border-radius: 50%;
-            width: 150px; 
-            height: 150px; 
-            position: absolute; 
-            top: 15px;
-            left: 50px;     
-        }
-
-        #mylogo-f{
-            border-radius: 50%; 
-            width: 90px; 
-            height: 90px;  
-            position: absolute; 
-            left: 50px; 
-        }
-
-        body{
-            background-color: beige;            
-        }
-        #myPhoto{
-            width: 300px;
-            height: 340px; 
-            border-radius: 30%; 
-            margin-right: auto;
-            margin-left: auto;
-            display: block; 
-            padding-top: 20px;
-            padding-bottom: 20px; 
-        }
-
-        .footer{
-            background-color: #e7d4c3;
-            border: 3px; 
-            border-color: brown; 
-            border-style: solid; 
-        }
-
-        #info{
-            display: inline-block;
-            margin-left: 200px;
-            line-height: 0px;
-            font-size: 16px;
-            font-family: "Lucida Sans";
-        }
-        
-        #first, #second, #third{
-            width: 300px;  
-            height: 200px; 
-            padding-left: 30px;
-            padding-right: 30px; 
-        }
-
-        .row{
-            display: flex; 
-        }
-
-        .column1{
-            flex: 50%; 
-        }
-
-        table{
-            margin-left: auto;
-            margin-right:auto; 
-        }
-
-        .column2{
-            flex: 50%; 
-            line-height: 0; 
-            text-align: center;
-        }
-
-        #intro{
-            text-align: center;
-            font-size: 18px;
-            font-family: "Lucida Sans"; 
-        }
-
-        a{
-            color: brown; 
-            text-decoration: none;
-        }
-
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body> 
@@ -140,7 +12,7 @@
                 <h1>My Portfolio</h1>
             </div>
             <div id="logo">
-                <img id="mylogo" src="logo.jpg" alt="CutieSylvina Logo"> 
+                <img id="mylogo" src="src/logo.jpg" alt="CutieSylvina Logo"> 
             </div>
             <div id="navigation">
                 <ul>
@@ -153,7 +25,7 @@
 
         <div class="whoAmI">
             <h2>Who Am I? </h2>
-            <img id="myPhoto" src="my_photo.jpeg" alt="Sylvina Vidal's Photo"> 
+            <img id="myPhoto" src="src/my_photo.jpeg" alt="Sylvina Vidal's Photo"> 
             <p id="intro">Hi! I am <b>Sylvina Q. Vidal</b>, a motivated and amiable junior student pursuing Bachelor of Science in Computer Science at University of the Philippines - Los Banos. Enthusiastic to join your company to make a positive contribution by endeavoring my knowledge, skills, and capabilities to the fullest extent.
             </p>
 
@@ -161,17 +33,17 @@
             <table> 
                 <th>
                     <p>The Dark Phantom Demon</p>
-                    <img id="first" src="p1.png" alt="The Dark Phantom Demon"> 
+                    <img id="first" src="src/p1.png" alt="The Dark Phantom Demon"> 
                     <p>(Python)</p>
                 </th>
                 <th> 
                     <p>Shop Cart Online</p>
-                    <img id="second" src="p2.png" alt="Shop Cart Online">
+                    <img id="second" src="src/p2.png" alt="Shop Cart Online">
                     <p>(C)</p> 
                 </th>
                 <th> 
                     <p>Solvers</p>
-                    <img id="third" src="p3.png" alt="Solvers">
+                    <img id="third" src="src/p3.png" alt="Solvers">
                     <p>(R Studio)</p>
                 </th>
             </table>
