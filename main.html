@@ -1,100 +1,148 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
-<html> 
-    <head> 
+<html>
+    <head>
         <title>My Portfolio</title>
-        <style> 
-            .header{
-                display: flex; 
+        <style>
+            .header{ 
+                border: 2px;
                 border-style: solid; 
-                border-width: 2px; 
+                background-color: beige; 
                 border-color: brown;
-                background-color: beige;
-                justify-content: center;
+                text-align: center;
             }
 
-            .navigation{
-                display: flex; 
-            }
+        h1{
+            font-family: "Lucida Sans";
+            font-size: 50px;
+        }
 
-            #logo{
-                position: absolute;
-                top: 20px; 
-                left: 20px;
-                bottom: 20px; 
-                border-radius: 50%;
-                width: 150px; 
-                height: 150px; 
-                
-            }
+        h2{
+            font-family: "Lucida Sans";
+            font-weight: bold;
+            text-align: center;
+        }
 
-            li{
-                display: inline-block;
-                margin-left: 80px;
-                margin-right: 80px;
-            }
+        li{
+            display: inline-flex;
+            margin-left: 100px;
+            margin-right: 100px; 
+            font-size: 20px;
+            font-family: Arial; 
+            font-weight: bold;
+        }
 
-            .footer{
-                display: flex;  
-                border-color: brown; 
-                border-style: solid; 
-                border-width: 2px; 
-                background-color: beige;
-            }
-            .body{
-                display: flex; 
-                border-color: beige; 
-            }
+        #mylogo{
+            border-radius: 50%;
+            width: 150px; 
+            height: 150px; 
+            position: absolute; 
+            top: 15px;
+            left: 50px;     
+        }
 
-            #photo{
-                display: flex; 
-                align-content: center;
-                border-radius: 50%; 
+        #mylogo-f{
+            border-radius: 50%; 
+            width: 150px; 
+            height: 150px;  
+            position: absolute; 
+             
+        }
+
+        body{
+            background-color: beige;            
+        }
+        #myPhoto{
+            width: 300px;
+            height: 340px; 
+            border-radius: 30%; 
+            margin-right: auto;
+            margin-left: auto;
+            display: block; 
+            padding-top: 20px;
+            padding-bottom: 20px; 
+        }
+
+        .footer{
+            border: 2px; 
+            border-color: brown; 
+            border-style: solid; 
+        }
+
+        #info{
+            display: inline-block;
+            margin-left: 200px;
+        }
         
-            }
+        #first, #second, #third{
+            width: 300px;  
+            height: 200px; 
+            padding-left: 30px;
+            padding-right: 30px; 
+        }
+
+        table{
+            margin-left: auto;
+            margin-right:auto; 
+        }
+
         </style>
     </head>
 
     <body> 
-        <div class="header">
-            <div>  
-                <img id= "logo" src="logo.jpg" alt="logo"> 
+        <div class="header"> 
+            <div id="head">
                 <h1>My Portfolio</h1>
-                <div class="navigation"> 
-                    <ul>
-                        <li>
-                            <p>Home</p>
-                        </li>
-                        <li>
-                            <p>About Me</p>
-                        </li>
-                    </ul>
-                </div>
-
             </div>
-
-        </div>
-
-        <div class="body"> 
-            <div id="myphoto">
-                <img id="photo" src="logo.jpg" alt="My Pic">   
+            <div id="logo">
+                <img id="mylogo" src="logo.jpg" alt="CutieSylvina Logo"> 
             </div>
-            <div>
-                <p>Previous Projects</p>
-            </div>
-            <div>
-                <p>Skills and Autobiography</p>
+            <div id="navigation">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                </ul>
             </div>
         </div>
 
-        <div class="footer"> 
-            <div>
-              <p>Address: Cedarwood Residences, Langkaan I, Dasmarinas City, Cavite</p>
-              <p>Contact Number: 09123456789</p>
-              <p>Copyright Information @ 2024</p>
-              <a href="#header">Back to the Top</a>
+        <div class="whoAmI">
+            <h2>Who Am I? </h2>
+            <img id="myPhoto" src="my_photo.jpeg" alt="Sylvina Vidal's Photo"> 
+            <p>Hi! I am Sylvina Q. Vidal, a junior student pursuing a BS Computer Science in University of the Philippines - Los Banos. I currently living in Dasmarinas City, Cavite.
+            </p>
+
+            <h3>Some of my previous projects are: </h3>
+            <table> 
+                <th>
+                    <p>The Dark Phantom Demon</p>
+                    <img id="first" src="p1.png" alt="The Dark Phantom Demon"> 
+                    <p>(Python)</p>
+                </th>
+                <th> 
+                    <p>Shop Cart Online</p>
+                    <img id="second" src="p2.png" alt="Shop Cart Online">
+                    <p>(C)</p> 
+                </th>
+                <th> 
+                    <p>Solvers</p>
+                    <img id="third" src="p3.png" alt="Solvers">
+                    <p>(R Studio)</p>
+                </th>
+            </table>
+
+
+        </div>
+
+        <div class="footer">
+            <div id="logo-f"> 
+                <img id="mylogo-f" src="logo.jpg" alt="CutieSylvina Logo"> 
+            </div>
+           <div id="info">
+                <p>Address: Cedarwood Residences, Langkaan I, Dasmarinas City, Cavite, 4114</>
+                <p>Contact Number: 09123456789</p>
+                <p>E-mail Address: sqvidal@up.edu.ph</p>
+                <p>Copyright Information @ 2024</p>
             </div>
         </div>
     </body>
-   
 </html>
