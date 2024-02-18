@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <style>
+            .header{ 
+                border: 2px;
+                border-style: solid; 
+                background-color: #e7d4c3; 
+                border-color: brown;
+                text-align: center;
+            }
+
+        h1{
+            font-family: "Lucida Sans";
+            font-size: 50px;
+        }
+
+        h2{
+            font-family: "Lucida Sans";
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        h3{
+            font-family: "Lucida Sans"; 
+            font-weight: bold; 
+            text-align: center; 
+        }
+
+        li{
+            font-family: "Lucida Sans"; 
+            font-size: 16px;
+        }
+
+        p{
+            font-family: "Lucida Sans"; 
+            font-size: 15px; 
+        }
+
+        #nav{
+            display: inline-flex;
+            margin-left: 100px;
+            margin-right: 100px; 
+            font-size: 20px;
+            font-family: Arial; 
+            font-weight: bold;
+        }
+
+        #mylogo{
+            border-radius: 50%;
+            width: 150px; 
+            height: 150px; 
+            position: absolute; 
+            top: 15px;
+            left: 50px;     
+        }
+
+        #mylogo-f{
+            border-radius: 50%; 
+            width: 90px; 
+            height: 90px;  
+            position: absolute; 
+            left: 50px; 
+        }
+
+        body{
+            background-color: beige;            
+        }
+        #myPhoto{
+            width: 300px;
+            height: 340px; 
+            border-radius: 30%; 
+            margin-right: auto;
+            margin-left: auto;
+            display: block; 
+            padding-top: 20px;
+            padding-bottom: 20px; 
+        }
+
+        .footer{
+            border: 2px; 
+            border-color: brown; 
+            border-style: solid; 
+        }
+
+        #info{
+            display: inline-block;
+            margin-left: 200px;
+            line-height: 0px;
+            font-size: 16px;
+            font-family: "Lucida Sans";
+        }
+        
+        #first, #second, #third{
+            width: 300px;  
+            height: 200px; 
+            padding-left: 30px;
+            padding-right: 30px; 
+        }
+
+        .row{
+            display: flex; 
+        }
+
+        .column1{
+            flex: 50%; 
+        }
+
+        table{
+            margin-left: auto;
+            margin-right:auto; 
+        }
+
+        .column2{
+            flex: 50%; 
+            line-height: 0; 
+            text-align: center;
+        }
+
+        </style>
+    </head>
+
+    <body> 
+        <div class="header"> 
+            <div id="head">
+                <h1>My Portfolio</h1>
+            </div>
+            <div id="logo">
+                <img id="mylogo" src="logo.jpg" alt="CutieSylvina Logo"> 
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li id="nav">Home</li>
+                    <li id="nav">About Me</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="whoAmI">
+            <h2>Who Am I? </h2>
+            <img id="myPhoto" src="my_photo.jpeg" alt="Sylvina Vidal's Photo"> 
+            <p>Hi! I am Sylvina Q. Vidal, a junior student pursuing a BS Computer Science in University of the Philippines - Los Banos. I currently living in Dasmarinas City, Cavite.
+            </p>
+
+            <h3>Some of my previous projects are: </h3>
+            <table> 
+                <th>
+                    <p>The Dark Phantom Demon</p>
+                    <img id="first" src="p1.png" alt="The Dark Phantom Demon"> 
+                    <p>(Python)</p>
+                </th>
+                <th> 
+                    <p>Shop Cart Online</p>
+                    <img id="second" src="p2.png" alt="Shop Cart Online">
+                    <p>(C)</p> 
+                </th>
+                <th> 
+                    <p>Solvers</p>
+                    <img id="third" src="p3.png" alt="Solvers">
+                    <p>(R Studio)</p>
+                </th>
+            </table>
+        </div>
+
+        <div class="row"> 
+            <div class="column1">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Has the passion to improve every day to perform better at work</li>
+                    <li>Willing to learn and be trained</li>
+                    <li>Has basic knowledge in C, Python, Java, R, HTML and CSS programming languages</li>
+                </ul>
+            </div>
+            <div class="column2">
+                <h3>Education</h3>
+                <br>
+                <p>Tertiary</p>
+                <p>University of the Philippines</p>
+                <p>Present</p>
+                <br>
+                <p>Secondary</p>
+                <p>Congressional Integrated High School</p>
+                <p>June 2019 - July 2021</p>
+                <br>
+                <p>Dasmarinas North National High School</p>
+                <p>June 2015 - April 2019</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div id="logo-f"> 
+                <img id="mylogo-f" src="logo.jpg" alt="CutieSylvina Logo"> 
+            </div>
+           <div id="info">
+                <p>Address: Cedarwood Residences, Langkaan I, Dasmarinas City, Cavite, 4114</>
+                <p>Contact Number: 09123456789</p>
+                <p>E-mail Address: sqvidal@up.edu.ph</p>
+                <p>Copyright Information @ 2024</p>
+                <a href="#head">Back to the Top</a>
+            </div>
+        </div>
+    </body>
+</html>
