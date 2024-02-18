@@ -7,120 +7,121 @@
 }
 
 h1{
-font-family: "Lucida Sans";
-font-size: 50px;
+    font-family: "Lucida Sans";
+    font-size: 50px;
 }
 
 h2{
-font-family: "Lucida Sans";
-font-weight: bold;
-text-align: center;
+    font-family: "Lucida Sans";
+    font-weight: bold;
+    text-align: center;
 }
 
 h3{
-font-family: "Lucida Sans"; 
-font-weight: bold; 
-text-align: center; 
+    font-family: "Lucida Sans"; 
+    font-weight: bold; 
+    text-align: center; 
 }
 
 li{
-font-family: "Lucida Sans"; 
-font-size: 16px;
+    font-family: "Lucida Sans"; 
+    font-size: 16px;
 }
 
 p{
-font-family: "Lucida Sans"; 
-font-size: 15px; 
+    font-family: "Lucida Sans"; 
+    font-size: 15px; 
 }
 
 #nav{
-display: inline-flex;
-margin-left: 200px;
-margin-right: 200px; 
-font-size: 20px;
-font-family: Arial; 
-font-weight: bold;
+    display: inline-flex;
+    margin-left: 200px;
+    margin-right: 200px; 
+    font-size: 20px;
+    font-family: Arial; 
+    font-weight: bold;
 }
 
 #mylogo{
-border-radius: 50%;
-width: 150px; 
-height: 150px; 
-position: absolute; 
-top: 15px;
-left: 50px;     
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    position: absolute; 
+    top: 15px;
+    left: 50px;     
 }
 
 #mylogo-f{
-border-radius: 50%; 
-width: 90px; 
-height: 90px;  
-position: absolute; 
-left: 50px; 
+    border-radius: 50%; 
+    width: 90px; 
+    height: 90px;  
+    position: absolute; 
+    left: 50px; 
 }
 
 body{
-background-color: beige;            
+    background-color: beige;   
 }
+
 #myPhoto{
-width: 300px;
-height: 340px; 
-border-radius: 30%; 
-margin-right: auto;
-margin-left: auto;
-display: block; 
-padding-top: 20px;
-padding-bottom: 20px; 
+    width: 300px;
+    height: 340px; 
+    border-radius: 30%; 
+    margin-right: auto;
+    margin-left: auto;
+    display: block; 
+    padding-top: 20px;
+    padding-bottom: 20px; 
 }
 
 .footer{
-background-color: #e7d4c3;
-border: 3px; 
-border-color: brown; 
-border-style: solid; 
+    background-color: #e7d4c3;
+    border: 3px; 
+    border-color: brown; 
+    border-style: solid; 
 }
 
 #info{
-display: inline-block;
-margin-left: 200px;
-line-height: 0px;
-font-size: 16px;
-font-family: "Lucida Sans";
+    display: inline-block;
+    margin-left: 200px;
+    line-height: 0px;
+    font-size: 16px;
+    font-family: "Lucida Sans";
 }
 
 #first, #second, #third{
-width: 300px;  
-height: 200px; 
-padding-left: 30px;
-padding-right: 30px; 
+    width: 300px;  
+    height: 200px; 
+    padding-left: 30px;
+    padding-right: 30px; 
 }
 
 .row{
-display: flex; 
+    display: flex; 
 }
 
 .column1{
-flex: 50%; 
+    flex: 50%; 
 }
 
 table{
-margin-left: auto;
-margin-right:auto; 
+    margin-left: auto;
+    margin-right:auto; 
 }
 
 .column2{
-flex: 50%; 
-line-height: 0; 
-text-align: center;
+    flex: 50%; 
+    line-height: 0; 
+    text-align: center;
 }
 
 #intro{
-text-align: center;
-font-size: 18px;
-font-family: "Lucida Sans"; 
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Sans"; 
 }
 
 a{
-color: brown; 
-text-decoration: none;
+    color: brown; 
+    text-decoration: none;
 }
