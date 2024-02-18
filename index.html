@@ -5,7 +5,7 @@
         <title>My Portfolio</title>
         <style>
             .header{ 
-                border: 2px;
+                border: 3px;
                 border-style: solid; 
                 background-color: #e7d4c3; 
                 border-color: brown;
@@ -41,8 +41,8 @@
 
         #nav{
             display: inline-flex;
-            margin-left: 100px;
-            margin-right: 100px; 
+            margin-left: 200px;
+            margin-right: 200px; 
             font-size: 20px;
             font-family: Arial; 
             font-weight: bold;
@@ -80,7 +80,8 @@
         }
 
         .footer{
-            border: 2px; 
+            background-color: #e7d4c3;
+            border: 3px; 
             border-color: brown; 
             border-style: solid; 
         }
@@ -119,6 +120,17 @@
             text-align: center;
         }
 
+        #intro{
+            text-align: center;
+            font-size: 18px;
+            font-family: "Lucida Sans"; 
+        }
+
+        a{
+            color: brown; 
+            text-decoration: none;
+        }
+
         </style>
     </head>
 
@@ -132,8 +144,9 @@
             </div>
             <div id="navigation">
                 <ul>
-                    <li id="nav">Home</li>
-                    <li id="nav">About Me</li>
+                    <li id="nav">
+                        <a href="#head">Home</a></li>
+                    <li id="nav"><a href="#whoAmI">About Me</a></li>
                 </ul>
             </div>
         </div>
@@ -141,7 +154,7 @@
         <div class="whoAmI">
             <h2>Who Am I? </h2>
             <img id="myPhoto" src="my_photo.jpeg" alt="Sylvina Vidal's Photo"> 
-            <p>Hi! I am Sylvina Q. Vidal, a junior student pursuing a BS Computer Science in University of the Philippines - Los Banos. I currently living in Dasmarinas City, Cavite.
+            <p id="intro">Hi! I am <b>Sylvina Q. Vidal</b>, a motivated and amiable junior student pursuing Bachelor of Science in Computer Science at University of the Philippines - Los Banos. Enthusiastic to join your company to make a positive contribution by endeavoring my knowledge, skills, and capabilities to the fullest extent.
             </p>
 
             <h3>Some of my previous projects are: </h3>
@@ -173,14 +186,15 @@
                     <li>Has basic knowledge in C, Python, Java, R, HTML and CSS programming languages</li>
                 </ul>
             </div>
+            <hr>
             <div class="column2">
                 <h3>Education</h3>
                 <br>
-                <p>Tertiary</p>
-                <p>University of the Philippines</p>
+                <p><b>Tertiary</b></p>
+                <p>University of the Philippines - Los Banos</p>
                 <p>Present</p>
                 <br>
-                <p>Secondary</p>
+                <p><b>Secondary</b></p>
                 <p>Congressional Integrated High School</p>
                 <p>June 2019 - July 2021</p>
                 <br>
@@ -194,11 +208,11 @@
                 <img id="mylogo-f" src="logo.jpg" alt="CutieSylvina Logo"> 
             </div>
            <div id="info">
-                <p>Address: Cedarwood Residences, Langkaan I, Dasmarinas City, Cavite, 4114</>
-                <p>Contact Number: 09123456789</p>
-                <p>E-mail Address: sqvidal@up.edu.ph</p>
-                <p>Copyright Information @ 2024</p>
-                <a href="#head">Back to the Top</a>
+                <p><b>Address:</b> Cedarwood Residences, Langkaan I, Dasmarinas City, Cavite, 4114</>
+                <p><b>Contact Number:</b> 09123456789</p>
+                <p><b>E-mail Address:</b> sqvidal@up.edu.ph</p>
+                <a href="#head"><b>Back to the Top</b></a>
+                <p><em>Copyright Information @ 2024</em></p>
             </div>
         </div>
     </body>
