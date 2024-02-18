@@ -1,8 +1,8 @@
 README 
     
-Author: Sylvina Q. Vidal
-Degree Program: BS Computer Science
-Live Website Link: https://vidalsylvina.github.io/vidal-u1l-exercise02/
+--- Author: Sylvina Q. Vidal
+--- Degree Program: BS Computer Science
+--- Live Website Link: https://vidalsylvina.github.io/vidal-u1l-exercise02/
 
 How to Create GitHub Page:
     1. Create your repository. 
